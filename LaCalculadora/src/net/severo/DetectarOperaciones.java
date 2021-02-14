@@ -6,6 +6,12 @@ import java.awt.event.ActionListener;
 import javax.swing.JLabel;
 
 public class DetectarOperaciones implements ActionListener {
+	public DetectarOperaciones(LogicaDeCalculadora logic, JLabel display) {
+		super();
+		this.logic = logic;
+		this.display = display;
+	}
+
 	private LogicaDeCalculadora logic;
 	private JLabel display;
 
